@@ -34,15 +34,24 @@ cd devtools
 ./restore.sh
 ```
 
-4. Open the Drupal site at [localhost:8080](http://localhost:8080/), you should see the initial setup page (only the first time you run the container). \
+4. Open the Drupal site at [localhost:8080](http://localhost:8080/), you should see the initial setup page. \
    Proceed with the default options until the database setup screen, then enter the following details:
    - Database type: PostgreSQL
    - Database name: `postgres`
    - Database username: `db-user`
    - Database password: `my-secret-pw`
    - Advanced options → Host: `db`
+   - Keep all other fields at their default value
 
-5. At this point, if you restored the database backup correctly, you should see "Drupal already installed". Click "View your existing site" to go to the site's home page.
+5. Click Save and continue. At this point, if you restored the database backup correctly, you should see "Drupal already installed". Click "View your existing site" to go to the site's home page.
+
+### Add content to the site
+
+You can add new content, or modify the existing content on the site, using the demo admin user. \
+Log in with the following details:
+
+- Username: `demoadmin`
+- Password: `secretpass`
 
 ### Backup database
 
