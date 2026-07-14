@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker compose up -d && echo "docker compose up successfull"
+docker compose up -d && echo "Docker compose up successful"
